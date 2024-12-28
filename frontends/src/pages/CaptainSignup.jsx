@@ -2,7 +2,7 @@ import React from 'react'
 
 function CaptainSignup() {
   return (
-    <div>CaptainSignup</div>
+    <div>CaptainSignup kfsjfjdsfjsdkfjslklf</div>
   )
 }
 
