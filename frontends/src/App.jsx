@@ -1,13 +1,18 @@
- import React from 'react'
+ import React, { useContext } from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Captainlogin from './pages/Captainlogin'
 import CaptainSignup from './pages/CaptainSignup'
+import { UserDataContext } from './context/UserContext'
 
  
  function App() {
+   
+   const val =  useContext(UserDataContext);
+   console.log(val)
+
    return (
       
     <>
